@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3061678223C62BD60027042E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3061678123C62BD60027042E /* Webservice.swift */; };
 		30D3F46623B8EB60008C3A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D3F46523B8EB60008C3A42 /* AppDelegate.swift */; };
 		30D3F46823B8EB60008C3A42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D3F46723B8EB60008C3A42 /* SceneDelegate.swift */; };
 		30D3F46D23B8EB60008C3A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D3F46B23B8EB60008C3A42 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3061678123C62BD60027042E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		30D3F46223B8EB60008C3A42 /* NewsAPIMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAPIMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D3F46523B8EB60008C3A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D3F46723B8EB60008C3A42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3061677F23C62A2C0027042E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3061678023C62BC30027042E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3061678123C62BD60027042E /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		30D3F45923B8EB60008C3A42 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,8 @@
 		30D3F46423B8EB60008C3A42 /* NewsAPIMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3061678023C62BC30027042E /* Services */,
+				3061677F23C62A2C0027042E /* ViewModels */,
 				30D3F49523B8EBC5008C3A42 /* Controllers */,
 				30D3F46523B8EB60008C3A42 /* AppDelegate.swift */,
 				30D3F46723B8EB60008C3A42 /* SceneDelegate.swift */,
@@ -269,6 +288,7 @@
 			files = (
 				30D3F46623B8EB60008C3A42 /* AppDelegate.swift in Sources */,
 				30D3F49723B8EBE3008C3A42 /* NewsListTableViewController.swift in Sources */,
+				3061678223C62BD60027042E /* Webservice.swift in Sources */,
 				30D3F46823B8EB60008C3A42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
